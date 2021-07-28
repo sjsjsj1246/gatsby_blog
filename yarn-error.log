@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn init
+
+PATH: 
+  /Users/inseo/.asdf/shims:/opt/homebrew/opt/asdf/bin:/opt/homebrew/bin:/opt/homebrew/sbin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/inseo/opt/anaconda3/bin:/Users/inseo/opt/anaconda3/condabin:/opt/homebrew/bin:/opt/homebrew/sbin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Visual Studio Code.app/Contents/Resources/app/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  15.2.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: canceled
+      at Interface.<anonymous> (/usr/local/lib/node_modules/yarn/lib/cli.js:136216:13)
+      at Interface.emit (node:events:329:20)
+      at Interface._ttyWrite (node:readline:875:16)
+      at ReadStream.onkeypress (node:readline:213:10)
+      at ReadStream.emit (node:events:329:20)
+      at emitKeys (node:internal/readline/utils:345:14)
+      at emitKeys.next (<anonymous>)
+      at ReadStream.onData (node:readline:1144:36)
+      at ReadStream.emit (node:events:329:20)
+      at addChunk (node:internal/streams/readable:304:12)
+
+npm manifest: 
+  No manifest
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
